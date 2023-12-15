@@ -1,0 +1,147 @@
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\bin\Debug\Graphs_Explorer.exe.config
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\bin\Debug\Graphs_Explorer.exe
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\bin\Debug\Graphs_Explorer.pdb
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.AssemblyReference.cache
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.PaginaStart.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.Properties.Resources.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.GenerateResource.cache
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.CoreCompileInputs.cache
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.exe
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.pdb
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.Autentificare.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.Inregistrare.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientate.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.meniu.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateGrafulEulerian.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientate.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateCitireSiAfisare.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateBaza.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateCalculGrad.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateCicluriCareIncepCuk.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateMatriceaDeAdiacenta.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateMatriceaDrumurilor.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateCicluriDeLungimel.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateMatriceaLanturilor.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateCicluriEuleriene.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateCalculGrad.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateComponentaConexaMaxima.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateComponenteConexe.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateComponentaTareConexa.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateComponenteConexe.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\bin\Debug\BazaDeDate.mdf
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\bin\Debug\BazaDeDate_log.ldf
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateGrafulHamiltonian.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.ComponenteConexe.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC1S1.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testFinalCheckBack.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC1S2.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC1S3.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC2S1.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC2S2.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC2S3.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC3S1.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC3S2.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC3S3.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testFinalRadioPanel.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.gradGraf.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.matriceaDrumurilor.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateComponentaConexaMaxima.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arbori.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arboriFrunze.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arboriLant.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arboriVectorTati.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.graf.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.aplicatii.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codArboriFrunze.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codArboriLant.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codArboriVectorTati.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateCalculGrad.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateCicluriDeLungimel.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateCicluriEuleriene.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateComponentaConexaMaxima.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateComponenteConexe.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateGrafulEulerian.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateGrafulHamiltonian.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.SuggestedBindingRedirects.cache
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateBaza.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateMatriceaLanturilor.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateCalculGrad.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateCicluriCareIncepCuk.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateComponentaConexaMaxima.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateComponentaTareConexa.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateComponenteConexe.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateMatriceaDeAdiacenta.resources
+D:\c# projects\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateMatriceaDrumurilor.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\bin\Debug\BazaDeDate.mdf
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\bin\Debug\BazaDeDate_log.ldf
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\bin\Debug\Graphs_Explorer.exe.config
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\bin\Debug\Graphs_Explorer.exe
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\bin\Debug\Graphs_Explorer.pdb
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.AssemblyReference.cache
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.aplicatii.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arbori.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arboriFrunze.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arboriLant.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.arboriVectorTati.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.Autentificare.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codArboriFrunze.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codArboriLant.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codArboriVectorTati.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateCalculGrad.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateCicluriDeLungimel.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateCicluriEuleriene.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateComponentaConexaMaxima.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateComponenteConexe.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateGrafulEulerian.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateGrafulHamiltonian.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriNeorientateMatriceaLanturilor.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateBaza.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateCalculGrad.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateCicluriCareIncepCuk.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateComponentaConexaMaxima.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateComponentaTareConexa.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateComponenteConexe.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateMatriceaDeAdiacenta.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.codGrafuriOrientateMatriceaDrumurilor.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.ComponenteConexe.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.gradGraf.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.graf.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientate.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateCalculGrad.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateCicluriEuleriene.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateComponentaConexaMaxima.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateComponenteConexe.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateGrafulEulerian.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateGrafulHamiltonian.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateMatriceaLanturilor.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientate.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateBaza.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateCalculGrad.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateCicluriCareIncepCuk.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateCitireSiAfisare.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateComponentaConexaMaxima.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateComponentaTareConexa.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateComponenteConexe.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateMatriceaDeAdiacenta.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriOrientateMatriceaDrumurilor.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.grafuriNeorientateCicluriDeLungimel.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.Inregistrare.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.matriceaDrumurilor.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.meniu.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.PaginaStart.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.Properties.Resources.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC1S1.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC1S2.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC1S3.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC2S1.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC2S2.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC2S3.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC3S1.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC3S2.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testC3S3.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testFinalCheckBack.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.testFinalRadioPanel.resources
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.GenerateResource.cache
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.csproj.CoreCompileInputs.cache
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.exe
+D:\@VIETNAM FLASHBACKS\INFOEDUCATIE 2023\Graphs_Explorer\Graphs_Explorer\obj\Debug\Graphs_Explorer.pdb
