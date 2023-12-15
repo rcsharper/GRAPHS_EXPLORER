@@ -1,0 +1,15 @@
+﻿Ce este un graf neorientat?|Un graf fara varfuri|Un graf cu muchii bidirectionale|Un graf cu varfuri si muchii fara directie|Un graf cu varfuri si muchii fara directie
+Care dintre urmatoarele nu este un exemplu de graf neorientat?|Harta unei orase|Reteaua de socializare Facebook|Diagrama unui circuit electric|Diagrama unui circuit electric
+Care dintre urmatoarele afirmatii este adevarata despre un graf neorientat?|Are muchii orientate|Nu are cicluri|Are un varf de articulatie|Nu are cicluri
+Ce este un lant intr-un graf neorientat?|Un ciclu|Un sir de varfuri si muchii inchise|Un sir de varfuri si muchii deschise|Un sir de varfuri si muchii deschise
+Ce reprezintă matricea de adiacenta a unui graf neorientat?|O matrice cu gradele varfurilor|O matrice cu informatii despre componente conexe|O matrice care indica daca doua varfuri sunt adiacente sau nu|O matrice care indica daca doua varfuri sunt adiacente sau nu
+Ce reprezinta numarul de componente conexe intr-un graf neorientat?|Numarul total de varfuri din graf|Numarul total de muchii din graf|Numarul de subgrafuri conexe distincte|Numarul de subgrafuri conexe distincte
+Cum este reprezentata matricea de adiacenta a unui graf orientat in care muchiile au directie?|O matrice patrata in care elementele sunt 1 sau 0|O matrice patrata in care elementele sunt numarul de muchii intre varfuri|O matrice patrata in care elementele sunt 1 sau -1|O matrice patrata in care elementele sunt 1 sau 0
+Ce reprezintă gradul extern al unui varf intr-un graf orientat?|Numarul de muchii care pleaca din varf|Numarul de muchii care ajung la varf|Suma gradelor tuturor varfurilor invecinate cu varful dat|Numarul de muchii care pleaca din varf
+Nu poate contine cicluri|Poate contine cicluri doar daca are cel putin 3 varfuri|Nu poate contine cicluri
+Ce reprezinta vectorul de tati intr-un arbore?|Un vector care stocheaza gradele tuturor varfurilor|Un vector care stocheaza ordinea varfurilor in timpul parcurgerii arborelui|Un vector care stocheaza parintii fiecărui varf în arbore|Un vector care stocheaza parintii fiecărui varf în arbore
+Care dintre urmatoarele afirmatii este adevarata despre vectorul de tati intr-un arbore?|Fiecare varf are un singur tata|Fiecare varf poate avea mai mulți tatici|Fiecare varf este propriul sau tata|Fiecare varf are un singur tata
+Care este numărul minim de frunze pe care le poate avea un arbore cu n vârfuri?|0|1|n|1
+Care este numarul maxim de frunze pe care le poate avea un arbore cu n varfuri?|0|1|n|n
+Ce este înalțimea unui arbore?|Numarul maxim de nivele din arbore|Numarul minim de nivele din arbore|Numarul total de varfuri din arbore|Numarul maxim de nivele din arbore
+Ce reprezinta gradul unui varf intr-un arbore?|Numarul de fii al varfului|Numarul de parinți al varfului|Numarul total de varfuri în arbore|Numarul de fii al varfului

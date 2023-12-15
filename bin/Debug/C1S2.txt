@@ -1,0 +1,11 @@
+﻿Ce este un graf neorientat?|Un graf fara varfuri|Un graf cu muchii bidirectionale|Un graf cu varfuri si muchii fara directie|Un graf cu varfuri si muchii fara directie
+Care dintre urmatoarele nu este un exemplu de graf neorientat?|Harta unei orase|Reteaua de socializare Facebook|Diagrama unui circuit electric|Diagrama unui circuit electric
+Care dintre urmatoarele afirmatii este adevarata despre un graf neorientat?|Are muchii orientate|Nu are cicluri|Are un varf de articulatie|Nu are cicluri
+Care este numarul maxim de muchii intr-un graf neorientat cu n varfuri?|n - 1|n(n-1)/2|2n|n(n-1)/2|
+Ce reprezinta gradul unui varf intr-un graf neorientat?|Numarul de muchii incidente|Numarul de componente conexe|Numarul de cicluri|Numarul de muchii incidente
+Ce este un ciclu intr-un graf neorientat?|Un lant inchis de varfuri si muchii|Un lant deschis de varfuri si muchii|Un varf izolat|Un lant inchis de varfuri si muchii|
+Care dintre urmatoarele afirmatii este adevarata despre un graf neorientat aciclic?|Nu are cicluri|Este complet|Are un drum Eulerian|Nu are cicluri
+Care este numarul minim de muchii intr-un graf neorientat conex cu n varfuri?|n - 1|n(n-1)/2|2n|n - 1
+Ce este un lant intr-un graf neorientat?|Un ciclu|Un sir de varfuri si muchii inchise|Un sir de varfuri si muchii deschise|Un sir de varfuri si muchii deschise
+Ce reprezintă matricea de adiacenta a unui graf neorientat?|O matrice cu gradele varfurilor|O matrice cu informatii despre componente conexe|O matrice care indica daca doua varfuri sunt adiacente sau nu|O matrice care indica daca doua varfuri sunt adiacente sau nu
+Ce reprezinta numarul de componente conexe intr-un graf neorientat?|Numarul total de varfuri din graf|Numarul total de muchii din graf|Numarul de subgrafuri conexe distincte|Numarul de subgrafuri conexe distincte

@@ -1,0 +1,60 @@
+﻿Un graf orientat poate avea mai multe drumuri minime intre două vârfuri?
+Da
+10
+Un graf orientat poate avea un varf izolat (cu gradul de intrare si gradul de iesire zero)?
+Da
+10
+Daca un graf orientat este aciclic, atunci acesta este si un arbore?
+Nu
+10
+Orice graf orientat poate fi reprezentat prin intermediul unei matrice de adiacentă?
+Da
+10
+Intr-un graf orientat, daca exista un drum de la varful A la varful B, atunci exista si un drum de la varful B la varful A?
+Nu
+10
+Un graf orientat complet are toate perechile de varfuri conectate cu muchii in ambele sensuri?
+Da
+10
+Un ciclu intr-un graf orientat poate contine un varf de articulatie?
+Nu
+10
+Daca un graf orientat este conex, atunci exista întotdeauna un arbore generat in acel graf?
+Nu
+10
+Un graf orientat poate contine un lant (sir de varfuri si muchii) care sa treaca prin fiecare varf exact o data?
+Da
+10
+Daca un graf orientat este aciclic, atunci acesta poate fi reprezentat prin intermediul unei liste de adiacentă?
+Da
+10
+Un graf orientat poate contine un varf care sa fie sursa si sa fie si destinatie?
+Da
+10
+Intr-un graf orientat, suma gradelor de intrare ale tuturor varfurilor este egală cu suma gradelor de iesire ale tuturor varfurilor?
+Da
+10
+Un graf orientat poate contine un subgraf care sa fie ciclic, dar graful in sine sa fie aciclic?
+Da
+10
+Daca un graf orientat contine un drum Hamiltonian, atunci contine si un ciclu Hamiltonian?
+Nu
+10
+Un graf orientat poate contine o muchie multipla între doua varfuri?
+Da
+10
+Intr-un graf orientat, fiecare varf poate avea un singur vecin de iesire?
+Nu
+10
+Un graf orientat poate contine o muchie care sa conecteze un varf cu el insusi?
+Da
+10
+Daca un graf orientat are un ciclu, atunci acesta este si un graf ciclic?
+Da
+10
+Orice graf orientat poate fi reprezentat prin intermediul unei liste de muchii?
+Da
+10
+Un graf orientat poate contine o substructura care sa fie un arbore?
+Da
+10

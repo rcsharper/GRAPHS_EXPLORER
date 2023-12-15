@@ -1,0 +1,60 @@
+﻿Un graf neorientat poate avea mai multe drumuri minime intre doua varfuri?
+Nu
+10
+Un graf neorientat poate avea un vârf de articulatie?
+Da
+10
+Exista întotdeauna un drum hamiltonian intr-un graf neorientat complet?
+Da
+10
+Orice graf neorientat poate fi reprezentat prin intermediul unui arbore generat?
+Da
+10
+Un graf neorientat aciclic poate avea mai multe componente conexe?
+Da
+10
+Daca un graf neorientat este eulerian, atunci este si planar?
+Nu
+10
+Un graf neorientat cu 5 vârfuri si 4 muchii poate fi conex?
+Nu
+10
+Un graf neorientat bipartit poate contine un ciclu impar?
+Nu
+10
+Daca un graf neorientat este aciclic, atunci este si arbore?
+Nu
+10
+Un graf neorientat planar poate avea mai multe fete exterioare?
+Nu
+10
+Un graf neorientat poate contine un ciclu Hamiltonian?
+Da
+10
+Daca toate varfurile unui graf neorientat au acelasi grad, atunci graful este complet?
+Nu
+10
+Un graf neorientat poate avea un drum eulerian si in acelasi timp un ciclu eulerian?
+Da
+10
+Daca un graf neorientat este bipartit, atunci graful contine un ciclu impar?
+Nu
+10
+Intr-un graf neorientat, gradul minim al unui varf poate fi mai mare sau egal decât gradul maxim?
+Nu
+10
+Daca un graf neorientat este planar, atunci acesta poate fi reprezentat prin intermediul unei matrice de adiacentă?
+Nu
+10
+Daca un graf neorientat contine un varf de articulatie, atunci acesta nu poate fi ciclic?
+Nu
+10
+Daca un graf neorientat este conex, atunci exista întotdeauna un arbore generat in acel graf?
+Da
+10
+Intr-un graf neorientat, doua varfuri pot fi adiacente doar printr-o singura muchie?
+Nu
+10
+Un graf neorientat poate avea mai multe componente conexe si sa fie ciclic?
+Da
+10

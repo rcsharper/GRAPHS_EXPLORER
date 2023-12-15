@@ -1,0 +1,11 @@
+﻿Ce este o frunza intr-un arbore?|Un varf fara parinte|Un varf cu un singur fiu|Un varf cu doi fii|Un varf fara parinte
+Care dintre urmatoarele afirmatii este adevarata despre o frunza intr-un arbore?|Poate avea mai multi frati|Nu poate avea frati|Nu poate avea fii|Nu poate avea frati
+Ce este un lant intr-un arbore?|Un subarbore care contine mai multi fii|O succesiune de varfuri conectate prin muchii|Un subarbore care contine un singur fiu|O succesiune de varfuri conectate prin muchii
+Care dintre urmatoarele optiuni este adevarata despre un lant intr-un arbore?|Poate contine cicluri|
+Nu poate contine cicluri|Poate contine cicluri doar daca are cel putin 3 varfuri|Nu poate contine cicluri
+Ce reprezinta vectorul de tati intr-un arbore?|Un vector care stocheaza gradele tuturor varfurilor|Un vector care stocheaza ordinea varfurilor in timpul parcurgerii arborelui|Un vector care stocheaza parintii fiecărui varf în arbore|Un vector care stocheaza parintii fiecărui varf în arbore
+Care dintre urmatoarele afirmatii este adevarata despre vectorul de tati intr-un arbore?|Fiecare varf are un singur tata|Fiecare varf poate avea mai mulți tatici|Fiecare varf este propriul sau tata|Fiecare varf are un singur tata
+Care este numărul minim de frunze pe care le poate avea un arbore cu n vârfuri?|0|1|n|1
+Care este numarul maxim de frunze pe care le poate avea un arbore cu n varfuri?|0|1|n|n
+Ce este înalțimea unui arbore?|Numarul maxim de nivele din arbore|Numarul minim de nivele din arbore|Numarul total de varfuri din arbore|Numarul maxim de nivele din arbore
+Ce reprezinta gradul unui varf intr-un arbore?|Numarul de fii al varfului|Numarul de parinți al varfului|Numarul total de varfuri în arbore|Numarul de fii al varfului

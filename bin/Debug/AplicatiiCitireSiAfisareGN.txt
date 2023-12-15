@@ -1,0 +1,34 @@
+﻿#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin("grad.in");
+ofstream fout("grad.out");
+void citire()
+{
+  int x,y;
+  f>>n>>m;
+  for(int i=1;i<=m;i++)
+   {
+    f>>x>>y;
+    a[x][y]=1;
+    a[y][x]=1;
+   }
+ }
+void afisare()
+{
+  for(int i=1; i <= k; i++)
+  {
+    for(int j = 1; j <= l; j++)
+    {
+      cout << a[i][j] << " ";
+    }
+   cout << endl;}
+}
+int main()
+{
+    citire();
+    afis();
+    fin.close();
+    fout.close();
+    return 0;
+}

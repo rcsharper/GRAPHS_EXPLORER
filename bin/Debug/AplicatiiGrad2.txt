@@ -1,0 +1,44 @@
+﻿D[50] - vector; fisier inclus (grad.in; grad.out)                                                              #include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin("grad.in");
+ofstream fout("grad.out");
+int D[50];
+int n,m;
+void citire()
+{
+   int x,y,i;
+   fin>>n>>m;
+   for(i=1;i<=m;i++)
+   {
+       fin>>x>>y;
+       D[x]++;
+       D[y]++;
+   }
+}
+void afis()
+{
+    int i,j;
+    for(i=1;i<=n;i++) 
+    fout<<D[i]<<" ";
+    fout<<endl;
+    fout<<"numarul de noduri cu gradul egal cu 2:";
+    fout<<endl;
+    int k=0;
+    for(i=1;i<=n;i++) 
+    if(D[i]==2) 
+    k++;
+    fout<<k<<endl;
+    fout<<endl;
+    for(i=1;i<=n;i++) 
+        if(D[i]==2) 
+        fout<<i<<" ";
+}
+int main()
+{
+    citire();
+    afis();
+    fin.close();
+    fout.close();
+    return 0;
+}                                                                                            

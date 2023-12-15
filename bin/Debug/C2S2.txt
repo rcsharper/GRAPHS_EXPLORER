@@ -1,0 +1,10 @@
+﻿Ce reprezintă gradul de intrare al unui varf intr-un graf orientat?|Numarul de varfuri adiacente|Numarul de muchii incidente|Numarul de componente conexe|Numărul de muchii incidente
+Ce reprezinta gradul de iesire al unui varf intr-un graf orientat?|Numarul de varfuri adiacente|Numarul de muchii incidente|Numarul de componente conexe|Numarul de varfuri adiacente
+Ce este un ciclu intr-un graf orientat?|Un lant inchis de varfuri si muchii|Un lant deschis de varfuri si muchii|Un arbore|Un lant inchis de varfuri si muchii
+Ce este un graf aciclic intr-un graf orientat?|Un graf fara cicluri|Un graf in care toate varfurile sunt adiacente|Un graf fara muchii|Un graf fara cicluri
+Ce este un graf complet intr-un graf orientat?|Un graf fara cicluri|Un graf in care oricare doua varfuri sunt adiacente|Un graf fara muchii|Un graf in care oricare doua varfuri sunt adiacente
+Ce este un graf tare conex intr-un graf orientat?|Un graf fara cicluri|Un graf in care exista un drum intre oricare doua varfuri|Un graf fara muchii|Un graf in care exista un drum intre oricare doua varfuri
+Care este numarul minim de cicluri pe care le poate avea un graf orientat cu n varfuri?|0|1|n|0
+Cum este reprezentata matricea de adiacenta a unui graf orientat in care muchiile au directie?|O matrice patrata in care elementele sunt 1 sau 0|O matrice patrata in care elementele sunt numarul de muchii intre varfuri|O matrice patrata in care elementele sunt 1 sau -1|O matrice patrata in care elementele sunt 1 sau 0
+Ce reprezintă gradul extern al unui varf intr-un graf orientat?|Numarul de muchii care pleaca din varf|Numarul de muchii care ajung la varf|Suma gradelor tuturor varfurilor invecinate cu varful dat|Numarul de muchii care pleaca din varf
+Ce reprezinta gradul intern al unui varf intr-un graf orientat?|Numarul de muchii care pleaca din varf|Numarul de muchii care ajung la varf|Suma gradelor tuturor varfurilor invecinate cu varful dat|Numarul de muchii care ajung la varf

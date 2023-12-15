@@ -1,0 +1,60 @@
+﻿Un arbore poate contine un ciclu?
+Nu
+10
+Un arbore poate contine mai mult de un varf de articulatie?
+Nu
+10
+Orice graf neorientat conex este un arbore?
+Da
+10
+Un arbore poate contine un subarbore izolat?
+Nu
+10
+Un arbore poate contine o muchie multipla intre doua varfuri?
+Nu
+10
+Daca un graf este aciclic, atunci acesta este si un arbore?
+Nu
+10
+Un arbore cu n varfuri contine intotdeauna n - 1 muchii?
+Da
+10
+Un arbore poate contine un subarbore care este un graf complet?
+Da
+10
+Un arbore poate fi reprezentat prin intermediul unei matrice de adiacentă?
+Da
+10
+Un arbore poate contine un lant (sir de varfuri si muchii) care sa treaca prin fiecare varf exact o data?
+Da
+10
+Intr-un arbore, fiecare varf poate avea un singur parinte?
+Da
+10
+Un arbore poate contine un ciclu Hamiltonian?
+Nu
+10
+Daca un graf conex are n - 1 muchii, atunci este un arbore cu n varfuri?
+Da
+10
+Un arbore poate contine un varf cu gradul 0?
+Da
+10
+Orice arbore este un graf planar?
+Da
+10
+Un arbore poate contine o muchie orientata intre doua varfuri?
+Nu
+10
+Un arbore poate contine o muchie orientata care sa conecteze un varf cu el insusi?
+Nu
+10
+Daca un arbore este aciclic, atunci acesta poate fi reprezentat prin intermediul unei liste de adiacentă?
+Da
+10
+Un arbore poate contine un varf de articulatie?
+Nu
+10
+Intr-un arbore, suma gradelor de intrare ale tuturor varfurilor este egala cu suma gradelor de iesire ale tuturor varfurilor?
+Da
+10
