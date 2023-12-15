@@ -1,0 +1,18 @@
+﻿Un graf neorientat poate avea mai multe componente conexe și să fie aciclic în același timp?
+Da
+10
+Într-un graf neorientat, toate muchiile pot avea același cost sau ponderare?
+Da
+10
+Într-un graf neorientat, suma gradelor tuturor vârfurilor trebuie să fie un număr par?
+Da
+10
+Toate grafurile neorientate cu același număr de vârfuri și muchii sunt izomorfe între ele?
+Nu
+10
+Dacă un graf neorientat este complet, atunci este și conex?
+Da
+10
+Dacă un graf neorientat are un ciclu de lungime impară, atunci nu poate fi bipartit?
+Da
+10

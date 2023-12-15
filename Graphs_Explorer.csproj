@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC0BB012-0672-46FF-A7E0-EB9C183FF007}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Graphs_Explorer</RootNamespace>
+    <AssemblyName>Graphs_Explorer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aplicatii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aplicatii.Designer.cs">
+      <DependentUpon>aplicatii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arbori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arbori.Designer.cs">
+      <DependentUpon>arbori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arboriFrunze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arboriFrunze.Designer.cs">
+      <DependentUpon>arboriFrunze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arboriLant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arboriLant.Designer.cs">
+      <DependentUpon>arboriLant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arboriVectorTati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arboriVectorTati.Designer.cs">
+      <DependentUpon>arboriVectorTati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autentificare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autentificare.Designer.cs">
+      <DependentUpon>Autentificare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="codArboriFrunze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codArboriFrunze.Designer.cs">
+      <DependentUpon>codArboriFrunze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codArboriLant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codArboriLant.Designer.cs">
+      <DependentUpon>codArboriLant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codArboriVectorTati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codArboriVectorTati.Designer.cs">
+      <DependentUpon>codArboriVectorTati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateCalculGrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateCalculGrad.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateCalculGrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateCicluriDeLungimel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateCicluriDeLungimel.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateCicluriDeLungimel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateCicluriEuleriene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateCicluriEuleriene.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateCicluriEuleriene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateComponentaConexaMaxima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateComponentaConexaMaxima.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateComponentaConexaMaxima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateComponenteConexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateComponenteConexe.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateComponenteConexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateGrafulEulerian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateGrafulEulerian.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateGrafulEulerian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateGrafulHamiltonian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateGrafulHamiltonian.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateGrafulHamiltonian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateMatriceaLanturilor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriNeorientateMatriceaLanturilor.Designer.cs">
+      <DependentUpon>codGrafuriNeorientateMatriceaLanturilor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateBaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateBaza.Designer.cs">
+      <DependentUpon>codGrafuriOrientateBaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateCalculGrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateCalculGrad.Designer.cs">
+      <DependentUpon>codGrafuriOrientateCalculGrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateCicluriCareIncepCuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateCicluriCareIncepCuk.Designer.cs">
+      <DependentUpon>codGrafuriOrientateCicluriCareIncepCuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateComponentaConexaMaxima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateComponentaConexaMaxima.Designer.cs">
+      <DependentUpon>codGrafuriOrientateComponentaConexaMaxima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateComponentaTareConexa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateComponentaTareConexa.Designer.cs">
+      <DependentUpon>codGrafuriOrientateComponentaTareConexa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateComponenteConexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateComponenteConexe.Designer.cs">
+      <DependentUpon>codGrafuriOrientateComponenteConexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateMatriceaDeAdiacenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateMatriceaDeAdiacenta.Designer.cs">
+      <DependentUpon>codGrafuriOrientateMatriceaDeAdiacenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="codGrafuriOrientateMatriceaDrumurilor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codGrafuriOrientateMatriceaDrumurilor.Designer.cs">
+      <DependentUpon>codGrafuriOrientateMatriceaDrumurilor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComponenteConexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComponenteConexe.Designer.cs">
+      <DependentUpon>ComponenteConexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gradGraf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gradGraf.Designer.cs">
+      <DependentUpon>gradGraf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graf.Designer.cs">
+      <DependentUpon>graf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientate.Designer.cs">
+      <DependentUpon>grafuriNeorientate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateCalculGrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateCalculGrad.Designer.cs">
+      <DependentUpon>grafuriNeorientateCalculGrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateCicluri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateCicluri.Designer.cs">
+      <DependentUpon>grafuriNeorientateCicluri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateCicluriEuleriene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateCicluriEuleriene.Designer.cs">
+      <DependentUpon>grafuriNeorientateCicluriEuleriene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateComponentaConexaMaxima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateComponentaConexaMaxima.Designer.cs">
+      <DependentUpon>grafuriNeorientateComponentaConexaMaxima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateComponenteConexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateComponenteConexe.Designer.cs">
+      <DependentUpon>grafuriNeorientateComponenteConexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateGrafulEulerian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateGrafulEulerian.Designer.cs">
+      <DependentUpon>grafuriNeorientateGrafulEulerian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateGrafulHamiltonian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateGrafulHamiltonian.Designer.cs">
+      <DependentUpon>grafuriNeorientateGrafulHamiltonian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateMatriceaLanturilor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateMatriceaLanturilor.Designer.cs">
+      <DependentUpon>grafuriNeorientateMatriceaLanturilor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientate.Designer.cs">
+      <DependentUpon>grafuriOrientate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateBaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateBaza.Designer.cs">
+      <DependentUpon>grafuriOrientateBaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateCalculGrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateCalculGrad.Designer.cs">
+      <DependentUpon>grafuriOrientateCalculGrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateCicluriCareIncepCuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateCicluriCareIncepCuk.Designer.cs">
+      <DependentUpon>grafuriOrientateCicluriCareIncepCuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateCitireSiAfisare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateCitireSiAfisare.Designer.cs">
+      <DependentUpon>grafuriOrientateCitireSiAfisare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateComponentaConexaMaxima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateComponentaConexaMaxima.Designer.cs">
+      <DependentUpon>grafuriOrientateComponentaConexaMaxima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateComponentaTareConexa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateComponentaTareConexa.Designer.cs">
+      <DependentUpon>grafuriOrientateComponentaTareConexa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateComponenteConexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateComponenteConexe.Designer.cs">
+      <DependentUpon>grafuriOrientateComponenteConexe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateMatriceaDeAdiacenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateMatriceaDeAdiacenta.Designer.cs">
+      <DependentUpon>grafuriOrientateMatriceaDeAdiacenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriOrientateMatriceaDrumurilor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriOrientateMatriceaDrumurilor.Designer.cs">
+      <DependentUpon>grafuriOrientateMatriceaDrumurilor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafuriNeorientateCicluriDeLungimel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafuriNeorientateCicluriDeLungimel.Designer.cs">
+      <DependentUpon>grafuriNeorientateCicluriDeLungimel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inregistrare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inregistrare.Designer.cs">
+      <DependentUpon>Inregistrare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemi.cs" />
+    <Compile Include="matriceaDrumurilor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matriceaDrumurilor.Designer.cs">
+      <DependentUpon>matriceaDrumurilor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="meniu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="meniu.Designer.cs">
+      <DependentUpon>meniu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaStart.Designer.cs">
+      <DependentUpon>PaginaStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="radio.cs" />
+    <Compile Include="testC1S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC1S1.Designer.cs">
+      <DependentUpon>testC1S1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC1S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC1S2.Designer.cs">
+      <DependentUpon>testC1S2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC1S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC1S3.Designer.cs">
+      <DependentUpon>testC1S3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC2S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC2S1.Designer.cs">
+      <DependentUpon>testC2S1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC2S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC2S2.Designer.cs">
+      <DependentUpon>testC2S2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC2S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC2S3.Designer.cs">
+      <DependentUpon>testC2S3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC3S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC3S1.Designer.cs">
+      <DependentUpon>testC3S1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC3S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC3S2.Designer.cs">
+      <DependentUpon>testC3S2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testC3S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testC3S3.Designer.cs">
+      <DependentUpon>testC3S3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testFinalCheckBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testFinalCheckBack.Designer.cs">
+      <DependentUpon>testFinalCheckBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testFinalRadioPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testFinalRadioPanel.Designer.cs">
+      <DependentUpon>testFinalRadioPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aplicatii.resx">
+      <DependentUpon>aplicatii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arbori.resx">
+      <DependentUpon>arbori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arboriFrunze.resx">
+      <DependentUpon>arboriFrunze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arboriLant.resx">
+      <DependentUpon>arboriLant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arboriVectorTati.resx">
+      <DependentUpon>arboriVectorTati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autentificare.resx">
+      <DependentUpon>Autentificare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codArboriFrunze.resx">
+      <DependentUpon>codArboriFrunze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codArboriLant.resx">
+      <DependentUpon>codArboriLant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codArboriVectorTati.resx">
+      <DependentUpon>codArboriVectorTati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateCalculGrad.resx">
+      <DependentUpon>codGrafuriNeorientateCalculGrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateCicluriDeLungimel.resx">
+      <DependentUpon>codGrafuriNeorientateCicluriDeLungimel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateCicluriEuleriene.resx">
+      <DependentUpon>codGrafuriNeorientateCicluriEuleriene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateComponentaConexaMaxima.resx">
+      <DependentUpon>codGrafuriNeorientateComponentaConexaMaxima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateComponenteConexe.resx">
+      <DependentUpon>codGrafuriNeorientateComponenteConexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateGrafulEulerian.resx">
+      <DependentUpon>codGrafuriNeorientateGrafulEulerian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateGrafulHamiltonian.resx">
+      <DependentUpon>codGrafuriNeorientateGrafulHamiltonian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriNeorientateMatriceaLanturilor.resx">
+      <DependentUpon>codGrafuriNeorientateMatriceaLanturilor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateBaza.resx">
+      <DependentUpon>codGrafuriOrientateBaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateCalculGrad.resx">
+      <DependentUpon>codGrafuriOrientateCalculGrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateCicluriCareIncepCuk.resx">
+      <DependentUpon>codGrafuriOrientateCicluriCareIncepCuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateComponentaConexaMaxima.resx">
+      <DependentUpon>codGrafuriOrientateComponentaConexaMaxima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateComponentaTareConexa.resx">
+      <DependentUpon>codGrafuriOrientateComponentaTareConexa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateComponenteConexe.resx">
+      <DependentUpon>codGrafuriOrientateComponenteConexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateMatriceaDeAdiacenta.resx">
+      <DependentUpon>codGrafuriOrientateMatriceaDeAdiacenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codGrafuriOrientateMatriceaDrumurilor.resx">
+      <DependentUpon>codGrafuriOrientateMatriceaDrumurilor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComponenteConexe.resx">
+      <DependentUpon>ComponenteConexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gradGraf.resx">
+      <DependentUpon>gradGraf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graf.resx">
+      <DependentUpon>graf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientate.resx">
+      <DependentUpon>grafuriNeorientate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateCalculGrad.resx">
+      <DependentUpon>grafuriNeorientateCalculGrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateCicluriEuleriene.resx">
+      <DependentUpon>grafuriNeorientateCicluriEuleriene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateComponentaConexaMaxima.resx">
+      <DependentUpon>grafuriNeorientateComponentaConexaMaxima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateComponenteConexe.resx">
+      <DependentUpon>grafuriNeorientateComponenteConexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateGrafulEulerian.resx">
+      <DependentUpon>grafuriNeorientateGrafulEulerian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateGrafulHamiltonian.resx">
+      <DependentUpon>grafuriNeorientateGrafulHamiltonian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateMatriceaLanturilor.resx">
+      <DependentUpon>grafuriNeorientateMatriceaLanturilor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientate.resx">
+      <DependentUpon>grafuriOrientate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateBaza.resx">
+      <DependentUpon>grafuriOrientateBaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateCalculGrad.resx">
+      <DependentUpon>grafuriOrientateCalculGrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateCicluriCareIncepCuk.resx">
+      <DependentUpon>grafuriOrientateCicluriCareIncepCuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateCitireSiAfisare.resx">
+      <DependentUpon>grafuriOrientateCitireSiAfisare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateComponentaConexaMaxima.resx">
+      <DependentUpon>grafuriOrientateComponentaConexaMaxima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateComponentaTareConexa.resx">
+      <DependentUpon>grafuriOrientateComponentaTareConexa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateComponenteConexe.resx">
+      <DependentUpon>grafuriOrientateComponenteConexe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateMatriceaDeAdiacenta.resx">
+      <DependentUpon>grafuriOrientateMatriceaDeAdiacenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriOrientateMatriceaDrumurilor.resx">
+      <DependentUpon>grafuriOrientateMatriceaDrumurilor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafuriNeorientateCicluriDeLungimel.resx">
+      <DependentUpon>grafuriNeorientateCicluriDeLungimel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inregistrare.resx">
+      <DependentUpon>Inregistrare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matriceaDrumurilor.resx">
+      <DependentUpon>matriceaDrumurilor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="meniu.resx">
+      <DependentUpon>meniu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaStart.resx">
+      <DependentUpon>PaginaStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="testC1S1.resx">
+      <DependentUpon>testC1S1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC1S2.resx">
+      <DependentUpon>testC1S2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC1S3.resx">
+      <DependentUpon>testC1S3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC2S1.resx">
+      <DependentUpon>testC2S1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC2S2.resx">
+      <DependentUpon>testC2S2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC2S3.resx">
+      <DependentUpon>testC2S3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC3S1.resx">
+      <DependentUpon>testC3S1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC3S2.resx">
+      <DependentUpon>testC3S2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testC3S3.resx">
+      <DependentUpon>testC3S3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testFinalCheckBack.resx">
+      <DependentUpon>testFinalCheckBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testFinalRadioPanel.resx">
+      <DependentUpon>testFinalRadioPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BazaDeDate.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BazaDeDate_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>BazaDeDate.mdf</DependentUpon>
+    </Content>
+    <Content Include="bin\Debug\AplicatiiCitireSiAfisareGN.txt" />
+    <Content Include="bin\Debug\AplicatiiComponenteConexeGN.txt" />
+    <Content Include="bin\Debug\AplicatiiGrad2.txt" />
+    <Content Include="bin\Debug\AplicatiiGradMaxim.txt" />
+    <Content Include="bin\Debug\AplicatiiGradParGN.txt" />
+    <Content Include="bin\Debug\arbori1.txt" />
+    <Content Include="bin\Debug\arbori2.txt" />
+    <Content Include="bin\Debug\C1S1.txt" />
+    <Content Include="bin\Debug\C1S2.txt" />
+    <Content Include="bin\Debug\C2S1.txt" />
+    <Content Include="bin\Debug\C2S2.txt" />
+    <Content Include="bin\Debug\C3S1.txt" />
+    <Content Include="bin\Debug\C3S2.txt" />
+    <Content Include="bin\Debug\compConexe.txt" />
+    <Content Include="bin\Debug\ComponenteConexe.txt" />
+    <Content Include="bin\Debug\frunze.txt" />
+    <Content Include="bin\Debug\gradCalcul1.txt" />
+    <Content Include="bin\Debug\gradExterior.txt" />
+    <Content Include="bin\Debug\gradinterior.txt" />
+    <Content Include="bin\Debug\MatriceaDeAdiacenta.txt" />
+    <Content Include="bin\Debug\MatriceaDrumurilor.txt" />
+    <Content Include="bin\Debug\MatriceaLanturilor.txt" />
+    <Content Include="bin\Debug\radioPanel.txt" />
+    <Content Include="bin\Debug\rezultate.txt" />
+    <Content Include="bin\Debug\TextFileArce.txt" />
+    <Content Include="bin\Debug\TextFileBackCheck.txt" />
+    <Content Include="bin\Debug\TextFileCalculGraf.txt" />
+    <Content Include="bin\Debug\TextFileCicluk.txt" />
+    <Content Include="bin\Debug\TextFileCompConexe.txt" />
+    <Content Include="bin\Debug\TextFileComponentaConexaMaxima.txt" />
+    <Content Include="bin\Debug\TextFileComponentaTareConexa.txt" />
+    <Content Include="bin\Debug\TextFileGrafHamiltonian.txt" />
+    <Content Include="bin\Debug\TextFileGrafulEulerian.txt" />
+    <Content Include="bin\Debug\TextFileMatriceaDrumurilor.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
