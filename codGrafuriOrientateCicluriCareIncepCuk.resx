@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Graphs_Explorer
+{
+    public partial class grafuriOrientateCicluriCareIncepCuk : Form
+    {
+        int[,] A = new int[10, 10];
+        int i, j, n, m, k;
+        int[] X = new int[50];
+        int[] p = new int[50];
+        Graphics g;
+        public grafuriOrientateCicluriCareIncepCuk()
+        {
+            InitializeComponent();
+        }
+
+        private void grafuriOrientateCicluriCareIncepCuk_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            meniu f2 = new meniu();
+            f2.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (StreamReader fin = new StreamReader("TextFileCicluK.txt"))
+            {
+                n = int.Parse(fin.ReadLine());
+                m = int.Parse(fin.ReadLine());
+                richTextBox2.AppendText(n.ToString() + "\n" + m.ToString() + "\n");
+                for (i = 1; i &lt;= m; i++)
+                {
+                    string linie = fin.ReadLine();
+                    richTextBox2.AppendText(linie + "\n");
+                    string[] v = linie.Split(' ');
+                    A[int.Parse(v[0].Trim().ToString()), int.Parse(v[1].Trim().ToString())] = 1;
+                    A[int.Parse(v[1].Trim().ToString()), int.Parse(v[0].Trim().ToString())] = 1;
+                    //d[int.Parse(v[0].Trim().ToString())]++;
+                    //d[int.Parse(v[0].Trim().ToString())]++;
+                }
+                richTextBox2.Font = new Font(FontFamily.GenericSerif, 12, FontStyle.Bold);
+                fin.Close();
+            }
+        }
+        void afis(int n)
+        {
+            for (int i = 1; i &lt;= n; i++)
+                richTextBox1.AppendText(X[i].ToString() + " ");
+            richTextBox1.AppendText("\n");
+        }
+
+        void back(int k, int pas)
+        {
+            for (int i = 1; i &lt;= n; i++)
+                if (p[i] != 1 &amp;&amp; A[X[pas - 1], i] == 1)
+                {
+                    X[pas] = i;
+                    p[i] = 1;
+                    if (X[pas] == k &amp;&amp; pas &gt; 3) afis(pas);
+                    else back(k, pas + 1);
+                    p[i] = 0;
+                }
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            richTextBox1.Font = new Font(FontFamily.GenericSerif, 12, FontStyle.Bold);
+            k = int.Parse(textBox1.Text);
+            X[1] = k;
+            back(k, 2);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            afis1(1);
+        }
+        void afis1(int i)
+        {
+            if (i &lt;= 10)
+            {
+                desen1(i);
+                afis1(i + 1);
+            }
+        }
+
+        void desen1(int i)
+        {
+            g = this.CreateGraphics();
+            Pen p = new Pen(Color.Black, 2);
+            g.DrawEllipse(p, 250, 100, 50, 50);//1
+            g.DrawEllipse(p, 150, 250, 50, 50);//2
+            g.DrawEllipse(p, 250, 400, 50, 50);//3
+            g.DrawEllipse(p, 400, 400, 50, 50);//4
+            g.DrawEllipse(p, 500, 200, 50, 50);//5
+            g.DrawEllipse(p, 600, 300, 50, 50);//6
+
+            AdjustableArrowCap bigArrow = new AdjustableArrowCap(7, 7);
+            p.CustomEndCap = bigArrow;
+
+            g.DrawLine(p, 255, 141, 198, 270);//1 2
+            g.DrawLine(p, 198, 270, 255, 407);//2 3
+            g.DrawLine(p, 300, 425, 400, 425);//3 4
+            g.DrawLine(p, 445, 409, 509, 242);//4 5
+            g.DrawLine(p, 505, 210, 297, 135);//5 1
+            g.DrawLine(p, 198, 270, 600, 320);//2 6
+            g.DrawLine(p, 600, 320, 545, 240);//6 5
+            g.DrawLine(p, 600, 320, 445, 413);//6 4
+
+            Font drawFont = new Font("Arial", 18);
+            SolidBrush drawBrush = new SolidBrush(Color.Black);
+            float x1 = 263.0F; float y1 = 113.0F;
+            float x2 = 163.0F; float y2 = 263.0F;
+            float x3 = 263.0F; float y3 = 413.0F;
+            float x4 = 413.0F; float y4 = 413.0F;
+            float x5 = 513.0F; float y5 = 213.0F;
+            float x6 = 613.0F; float y6 = 313.0F;
+            g.DrawString("1", drawFont, drawBrush, x1, y1);
+            g.DrawString("2", drawFont, drawBrush, x2, y2);
+            g.DrawString("3", drawFont, drawBrush, x3, y3);
+            g.DrawString("4", drawFont, drawBrush, x4, y4);
+            g.DrawString("5", drawFont, drawBrush, x5, y5);
+            g.DrawString("6", drawFont, drawBrush, x6, y6);
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            codGrafuriOrientateCicluriCareIncepCuk f2 = new codGrafuriOrientateCicluriCareIncepCuk();
+            f2.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            grafuriOrientateComponenteConexe f2 = new grafuriOrientateComponenteConexe();
+            f2.Show();
+        }
+    }
+}
+</value>
+  </data>
+</root>
